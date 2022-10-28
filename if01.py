@@ -10,9 +10,9 @@ def main(a,b,c):
     """
     if a > b > c :
         return a
-    if b > c > a :
+    elif b > c > a :
          return b
-    if c > b > a :
+    elif c > b > a :
          return c
 print(main(1,4,2))
 print(main(-5,-3,-1))

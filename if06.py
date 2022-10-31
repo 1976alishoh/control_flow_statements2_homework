@@ -7,6 +7,6 @@ def main(n):
         int: return answer.
     """
     a = str(n)
-    return a.index(max(a))
+    return int(a.index(max(a)))
 print(main(76514))
 print(main(54694))
